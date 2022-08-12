@@ -3,16 +3,16 @@
 using namespace std;
 
 int main() {
-    float Principle, Rate, Time, interest;
+    float principal, rate, time, interest;
     cout << "Calculate your interest-" << endl;
-    cout << "Principle amount:" << endl;
-    cin >> Principle;
-    cout << "Rate of interest:" << endl;
-    cin >> Rate;
-    cout << "Tenure of investment1:" << endl;
-    cin >> Time;
-    interest = (Principle * Rate * Time) / 100;
-    cout << "Rate of interest = " << interest;
+    cout << "Principal amount:" << endl;
+    cin >> principal;
+    cout << "Rate of Interest:" << endl;
+    cin >> rate;
+    cout << "Tenure of Investment (in years):" << endl;
+    cin >> time;
+    interest = (principal * rate * time) / 100;
+    cout << "Simple Interest = " << interest;
     return 0;
 }
 
